@@ -1,0 +1,22 @@
+.mainContainer {
+    background-color: #ebe7d6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: 25px;
+    FONT-WEIGHT: 100;
+    padding: 10px;
+    width: 98%;
+    border-radius: 2px;
+}
+
+.mainContainer a {
+    
+    transition: color 0.3s ease;
+}
+
+.mainContainer a:hover {
+    color: #80A66F; /* Cambia el color de texto al pasar el cursor sobre los enlaces */
+}
+.linkStyle{
+    color: #000000;
+    text-decoration: none;
+}

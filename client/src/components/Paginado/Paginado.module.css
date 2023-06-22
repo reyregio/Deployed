@@ -1,0 +1,37 @@
+/* Paginado.module.css */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 15px;
+    
+    
+}
+
+.listas {
+    margin: 3.5px;
+    height: 30px;
+}
+
+.listas a {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #F7F8EF; 
+    background-color: #80A66F ;
+    border: 2px solid #2c3131; 
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 22px;
+    align-items: center;
+align-content: center;
+}
+
+.listas a:hover {
+    background-color: #2c3131; /* Cambio de color de fondo al pasar el cursor */
+    color: #f7f8ef; /* Cambio de color de letras al pasar el cursor */
+}

@@ -1,0 +1,24 @@
+.SearchBox {
+    flex-direction: row;
+}
+
+.button {
+    background-color: #80a66f;
+    color: #f7f8ef;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    font-family: "Roboto";
+    font-weight: lighter;
+}
+.input {
+    border: none;
+    font-family: "Nunito Sans";
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: none;
+    background-color: #f7f8ef;
+}
